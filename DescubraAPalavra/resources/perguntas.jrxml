@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.4.0.final using JasperReports Library version 6.4.1  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="perguntas" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="06ca8291-afdc-40ce-b019-7d55c017aa21">
+	<property name="com.jaspersoft.studio.data.sql.tables">
+		<![CDATA[ZGVzY29icmlyYXBhbGF2cmEucGVyZ3VudGFzIEFTICw2MSwxNDIsZGI5MmNjNTUtMzA4OS00YmM1
+LWE3MDctZTIzMTk1OTY1OTM2Ow==]]>
+	</property>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Mysql1-jdbc"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT descobrirapalavra.perguntas.assunto,
+	descobrirapalavra.perguntas.pergunta1,
+	descobrirapalavra.perguntas.dica1perg1,
+	descobrirapalavra.perguntas.dica2perg1,
+	descobrirapalavra.perguntas.dica3perg1,
+	descobrirapalavra.perguntas.pergunta2,
+	descobrirapalavra.perguntas.dica1perg2,
+	descobrirapalavra.perguntas.dica2perg2,
+	descobrirapalavra.perguntas.dica3perg2,
+	descobrirapalavra.perguntas.pergunta3,
+	descobrirapalavra.perguntas.dica1perg3,
+	descobrirapalavra.perguntas.dica2perg3,
+	descobrirapalavra.perguntas.dica3perg3,
+	descobrirapalavra.perguntas.pergunta4,
+	descobrirapalavra.perguntas.dica1perg4,
+	descobrirapalavra.perguntas.dica2perg4,
+	descobrirapalavra.perguntas.dica3perg4,
+	descobrirapalavra.perguntas.pergunta5,
+	descobrirapalavra.perguntas.dica1perg5,
+	descobrirapalavra.perguntas.dica2perg5,
+	descobrirapalavra.perguntas.dica3perg5
+FROM descobrirapalavra.perguntas]]>
+	</queryString>
+	<field name="assunto" class="java.lang.String"/>
+	<field name="pergunta1" class="java.lang.String"/>
+	<field name="dica1perg1" class="java.lang.String"/>
+	<field name="dica2perg1" class="java.lang.String"/>
+	<field name="dica3perg1" class="java.lang.String"/>
+	<field name="pergunta2" class="java.lang.String"/>
+	<field name="dica1perg2" class="java.lang.String"/>
+	<field name="dica2perg2" class="java.lang.String"/>
+	<field name="dica3perg2" class="java.lang.String"/>
+	<field name="pergunta3" class="java.lang.String"/>
+	<field name="dica1perg3" class="java.lang.String"/>
+	<field name="dica2perg3" class="java.lang.String"/>
+	<field name="dica3perg3" class="java.lang.String"/>
+	<field name="pergunta4" class="java.lang.String"/>
+	<field name="dica1perg4" class="java.lang.String"/>
+	<field name="dica2perg4" class="java.lang.String"/>
+	<field name="dica3perg4" class="java.lang.String"/>
+	<field name="pergunta5" class="java.lang.String"/>
+	<field name="dica1perg5" class="java.lang.String"/>
+	<field name="dica2perg5" class="java.lang.String"/>
+	<field name="dica3perg5" class="java.lang.String"/>
+	<group name="assunto">
+		<groupExpression><![CDATA[$F{assunto}]]></groupExpression>
+	</group>
+	<group name="pergunta1">
+		<groupExpression><![CDATA[$F{pergunta1}]]></groupExpression>
+	</group>
+	<group name="dica1perg1">
+		<groupExpression><![CDATA[$F{dica1perg1}]]></groupExpression>
+	</group>
+	<group name="dica2perg1">
+		<groupExpression><![CDATA[$F{dica2perg1}]]></groupExpression>
+	</group>
+	<group name="dica3perg1">
+		<groupExpression><![CDATA[$F{dica3perg1}]]></groupExpression>
+	</group>
+	<group name="pergunta2">
+		<groupExpression><![CDATA[$F{pergunta2}]]></groupExpression>
+	</group>
+	<group name="dica1perg2">
+		<groupExpression><![CDATA[$F{dica1perg2}]]></groupExpression>
+	</group>
+	<group name="dica2perg2">
+		<groupExpression><![CDATA[$F{dica2perg2}]]></groupExpression>
+	</group>
+	<group name="dica3perg2">
+		<groupExpression><![CDATA[$F{dica3perg2}]]></groupExpression>
+	</group>
+	<group name="pergunta3">
+		<groupExpression><![CDATA[$F{pergunta3}]]></groupExpression>
+	</group>
+	<group name="dica1perg3">
+		<groupExpression><![CDATA[$F{dica1perg3}]]></groupExpression>
+	</group>
+	<group name="dica2perg3">
+		<groupExpression><![CDATA[$F{dica2perg3}]]></groupExpression>
+	</group>
+	<group name="dica3perg3">
+		<groupExpression><![CDATA[$F{dica3perg3}]]></groupExpression>
+	</group>
+	<group name="pergunta4">
+		<groupExpression><![CDATA[$F{pergunta4}]]></groupExpression>
+	</group>
+	<group name="dica1perg4">
+		<groupExpression><![CDATA[$F{dica1perg4}]]></groupExpression>
+	</group>
+	<group name="dica2perg4">
+		<groupExpression><![CDATA[$F{dica2perg4}]]></groupExpression>
+	</group>
+	<group name="dica3perg4">
+		<groupExpression><![CDATA[$F{dica3perg4}]]></groupExpression>
+	</group>
+	<group name="pergunta5">
+		<groupExpression><![CDATA[$F{pergunta5}]]></groupExpression>
+	</group>
+	<group name="dica1perg5">
+		<groupExpression><![CDATA[$F{dica1perg5}]]></groupExpression>
+	</group>
+	<group name="dica2perg5">
+		<groupExpression><![CDATA[$F{dica2perg5}]]></groupExpression>
+	</group>
+	<group name="dica3perg5">
+		<groupExpression><![CDATA[$F{dica3perg5}]]></groupExpression>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="82" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-19" width="595" height="92" backcolor="#006699" uuid="a1286d7a-5d70-42e7-b41f-7bfd62f4197e"/>
+				<staticText>
+					<reportElement x="20" y="20" width="360" height="43" forecolor="#FFFFFF" uuid="3b0834fa-04a1-4d44-bb10-0df062fbb7de"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Descobrir a Palavra]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement mode="Opaque" x="100" y="0" width="455" height="32" forecolor="#006699" backcolor="#E6E6E6" uuid="1e737195-d1cc-46eb-b8ce-6cd4f652b235"/>
+				<textElement>
+					<font size="24" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{assunto}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="5" width="100" height="30" uuid="bd2cf544-4a88-4fb7-a7b6-4693d8219153"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Assunto:]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="66" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="419" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="4" width="100" height="30" uuid="68efd99b-9242-4a20-b5c1-3ec62ac46271"/>
+				<text><![CDATA[Pergunta 1:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="4" width="470" height="30" uuid="7c5512fa-8634-4862-aafe-20b47b1c0ce0"/>
+				<textFieldExpression><![CDATA[$F{pergunta1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="34" width="100" height="30" uuid="82142b1e-38e5-437d-ba38-9cd67e9922f3"/>
+				<text><![CDATA[Dicas:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="35" width="150" height="30" uuid="6f0c4684-bee0-4e2f-841f-52d65e1c35ab"/>
+				<textFieldExpression><![CDATA[$F{dica1perg1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="34" width="160" height="30" uuid="fb2d3478-b3d2-4045-beda-d3ced8485be6"/>
+				<textFieldExpression><![CDATA[$F{dica2perg1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="34" width="165" height="30" uuid="ca1671d4-45a6-4d77-8398-f30579f41f6b"/>
+				<textFieldExpression><![CDATA[$F{dica3perg1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="80" width="100" height="30" uuid="c5bd7b92-9e25-46d0-a34f-94327c605979"/>
+				<text><![CDATA[Pergunta 2:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="80" width="470" height="30" uuid="68b00d7c-09e8-4a8e-9672-da7eadedaafa"/>
+				<textFieldExpression><![CDATA[$F{pergunta2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="110" width="165" height="30" uuid="984c8cc3-da1f-4497-8f39-bbb92cfac28c"/>
+				<textFieldExpression><![CDATA[$F{dica3perg2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="110" width="160" height="30" uuid="d3daa351-2918-4b41-8afd-13e9674c70d1"/>
+				<textFieldExpression><![CDATA[$F{dica2perg2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="111" width="150" height="30" uuid="c9fa92c5-0a72-4496-95ea-be00810aa4cb"/>
+				<textFieldExpression><![CDATA[$F{dica1perg2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="110" width="100" height="30" uuid="b18e9cef-8270-4118-b827-2ebd6d724269"/>
+				<text><![CDATA[Dicas:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="158" width="100" height="30" uuid="09b1306c-15eb-4a47-b91a-d731cfee777f"/>
+				<text><![CDATA[Pergunta 3:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="158" width="470" height="30" uuid="f8ecea40-5475-4529-ada0-b62bbf1ecbf2"/>
+				<textFieldExpression><![CDATA[$F{pergunta3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="188" width="165" height="30" uuid="aa088f83-420b-48b7-acc7-89e3eb51e1f5"/>
+				<textFieldExpression><![CDATA[$F{dica3perg3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="188" width="160" height="30" uuid="59b11c8e-8b24-417a-bfda-238e2c0dee4d"/>
+				<textFieldExpression><![CDATA[$F{dica2perg3}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="189" width="150" height="30" uuid="04ad553f-7a60-41d6-a33f-14c147bc4fe4"/>
+				<textFieldExpression><![CDATA[$F{dica1perg2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="188" width="100" height="30" uuid="d760faf5-e417-4f32-9d05-db4ddfda8795"/>
+				<text><![CDATA[Dicas:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="235" width="100" height="30" uuid="ecebb306-ca4b-47aa-83f5-4f776d3c622f"/>
+				<text><![CDATA[Pergunta 4:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="100" y="235" width="470" height="30" uuid="47760af8-bbf4-4404-bd82-bbf2a578f4a7"/>
+				<textFieldExpression><![CDATA[$F{pergunta4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="410" y="265" width="165" height="30" uuid="5eb77684-3535-4bb7-878c-823a83760adf"/>
+				<textFieldExpression><![CDATA[$F{dica3perg4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="250" y="265" width="160" height="30" uuid="05018f83-7741-442f-9a28-17335fa2239c"/>
+				<textFieldExpression><![CDATA[$F{dica2perg4}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="266" width="150" height="30" uuid="498e626e-031e-43ca-8731-ba862a878d33"/>
+				<textFieldExpression><![CDATA[$F{dica1perg4}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="265" width="100" height="30" uuid="a5e0aaba-6c8b-4a02-bacd-2dd0ec13dcf9"/>
+				<text><![CDATA[Dicas:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="316" width="100" height="30" uuid="d51a95b6-92e6-421c-9afd-e3a13c8ecca8"/>
+				<text><![CDATA[Pergunta 5:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="102" y="316" width="470" height="30" uuid="198b84a8-7111-48e6-b5bb-5531022f6bf4"/>
+				<textFieldExpression><![CDATA[$F{pergunta5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="412" y="346" width="165" height="30" uuid="0e18f90a-c747-4ce0-8e14-3e72f579d782"/>
+				<textFieldExpression><![CDATA[$F{dica3perg5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="252" y="346" width="160" height="30" uuid="5a60afaa-3072-4088-a331-59bd944eaaa3"/>
+				<textFieldExpression><![CDATA[$F{dica2perg5}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="102" y="347" width="150" height="30" uuid="41fa7841-fe2f-4cf0-b8ca-d1323126020a"/>
+				<textFieldExpression><![CDATA[$F{dica1perg5}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="346" width="100" height="30" uuid="fe6cd8f5-8d67-4b0d-aa5a-c54d60dfab20"/>
+				<text><![CDATA[Dicas:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="75" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="22" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="14" splitType="Stretch"/>
+	</summary>
+</jasperReport>
